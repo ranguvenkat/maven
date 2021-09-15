@@ -1,0 +1,24 @@
+# ! /bin/user/env groovy
+
+pipeline{
+   agent any 
+        stages{ 
+		 stage ('build') {
+		        steps {
+				    //
+		}
+	}
+		 stage ('test') {
+		       steps {
+			      //
+	}
+   }
+		stage ('Build') {
+				   steps {
+				        //
+				}
+			}
+						
+		}
+
+}
